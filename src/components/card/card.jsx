@@ -16,9 +16,9 @@ const ColorCard = () => {
 
   return (
     <div className="card" style={{ backgroundColor: bgColor }}>
-      <h2>Tarjeta cambiante 🎨</h2>
+      <h2>Tarjeta cambiante :D</h2>
       <p>Has modificado el color <strong>{count}</strong> veces</p>
-      <button onClick={handleClick}>¡Nuevo color!</button>
+      <button onClick={handleClick}>Boton cambia color aqui</button>
     </div>
   );
 };
